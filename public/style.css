@@ -25,6 +25,8 @@ h1{
   align-items: center;
 }
 .btn{
-  
-
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: antiquewhite;
 }
