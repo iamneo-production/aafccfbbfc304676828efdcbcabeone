@@ -40,10 +40,15 @@ h1{
 }
 p{
   text-align: center;
-  text-decoration-color: aliceblue;
+  color: aliceblue;
   text-shadow: 1remw;
 }
-reset{
-  
-
+#reset{
+  border-color: black;
+  cursor: pointer;
+  color:azure
+}
+#reset:hover{
+  background-color: aliceblue,black;
+  transition: cubic-bezier();
 }
