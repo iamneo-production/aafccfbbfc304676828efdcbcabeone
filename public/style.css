@@ -30,3 +30,20 @@ h1{
 .btn:hover{
   background-color: antiquewhite;
 }
+.reuslt-container{
+  transition-property: initial;
+  background-color: azure;
+  border: 1em;
+  align-items: center;
+  max-width: 200px;
+  text-align: center;
+}
+p{
+  text-align: center;
+  text-decoration-color: aliceblue;
+  text-shadow: 1remw;
+}
+reset{
+  
+
+}
