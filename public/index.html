@@ -6,10 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>tic_tac_toe</title>
 
-  <!-- link the style.css and app.js files -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="app.js"></script>
 
 </head>
 <body>
+  <div id="main" class="result-container">
+    <h1>Tic Tac Toe</h1>
+    <p id="ins" class="result">palyer x turn</p>
+  </div>
   <div class="box">
     <div class="row">
       <input type="text" id="b1" class="cell" onclick="myfunc_3(), myfunc()" readonly>
@@ -29,7 +34,9 @@
   </div>
   <br><br><br>
   
-  <button id="reset" onclick="myfunc_2()">reset</button>
+  <button id="reset" onclick="myfunc_2()">Reset</button>
+  <br><br>
+  <p id="print"></p>
 
 </body>
 </html>

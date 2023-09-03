@@ -10,3 +10,9 @@ body {
   }
   
 /* Enter your styling here */
+h1{
+  color:bright white color;
+  text-align:center;
+  text-shadow: 2px rgba((red), green, blue, alpha);
+  font-size: 50px;
+}
